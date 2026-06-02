@@ -1,0 +1,9 @@
+set1={'Ram','shyam','Jenny'}
+set2={'Jenny','Jiya','Aakash'}
+print(set1.isdisjoint(set2))
+print(set1.isdisjoint(['Mohan','Shiva']))
+print(set1.issubset(['Mohan','jenny']))
+print(set1.issubset(['Mohan','Shiva','Jenny','Ram','Shyam']))
+print(set1.issubset(set2))
+print(set1<=set2)
+print(set1<=set1)
